@@ -5,7 +5,7 @@ use std::net::UdpSocket;
 fn main() -> std::io::Result<()> {
     let matches = App::new("Wake On Lan helper")
         .version("0.0.1")
-        .author("Martin Feckie <martin@mfeckie.de>")
+        .author("Martin Feckie <martin@mfeckie.dev>")
         .arg(
             Arg::new("mac_address")
                 .about("Mac Address of device you wish to wake. e.g. `00:01:FF:CC:09:22")
