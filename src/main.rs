@@ -8,7 +8,7 @@ fn main() -> std::io::Result<()> {
         .author("Martin Feckie <martin@mfeckie.dev>")
         .arg(
             Arg::new("mac_address")
-                .about("Mac Address of device you wish to wake. e.g. `00:01:FF:CC:09:22")
+                .help("Mac Address of device you wish to wake. e.g. `00:01:FF:CC:09:22")
                 .index(1)
                 .required(true),
         )
